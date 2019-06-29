@@ -30,7 +30,7 @@ To use it first off `git clone` the repo, then `yarn` and finally you can use it
 
 ## "When will my fix make it into a release?"
 
-React Native follows a release cycle not strictly monthly - you can read more [about it here](https://github.com/react-native-community/discussions-and-proposals/issues/17). Once a pull request is merged to the [core `react-native` repo](https://github.com/facebook/react-native), it may take one to two months for the changes to make it into a stable React Native release.
+React Native follows a release cycle not strictly monthly - you can read more [about it here](https://github.com/react-native-community/discussions-and-proposals/issues/17). When creating a new release, all commits from master are included. This means that once a pull request is merged to the [core `react-native` repo](https://github.com/facebook/react-native), it may take one to two months for the changes to make it into a stable React Native release.
 
 To determine whether a fix or feature is present in a given release, you will need the commit hash where the fix or feature was added to the `master` branch of the core `react-native` repo. If you know the PR, you can look for the comment from **@facebook-github-bot** that says 'closed this in <COMMIT_HASH>'.
 
